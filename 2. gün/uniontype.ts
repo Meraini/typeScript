@@ -23,3 +23,9 @@ let mert: User | Admin = {
 }
 //admin de olabilir ama duruma bağlı olarak user da olabilir bu şekilde bir yapı oluşturabiliyoruz bu bize daha esnek bir yapı sağlıyor
  
+
+//array
+
+const data : number[] = [1,2,3,4,5]
+const data2 : string[] = ["1","2","3"]
+const data4: string[] | number[] = [1,2,3,4,5] //bu şekilde hem string hemde number arrayi oluşturabiliriz ama tek bir array türü olabilir yani hem string hemde number arrayi aynı anda olamaz
